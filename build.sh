@@ -1,4 +1,5 @@
 #!/bin/bash
+set -euo pipefail
 
 ###### NEW PROCESS ######
 # We are going to start using a github action to run the compression and generate
@@ -11,31 +12,49 @@
 
 ### Generate dated release ###
 CURRENT_DATE=$(date "+%Y-%m-%d")
-ZIPFILE="releases/$CURRENT_DATE.zip"
+SEASON=$(tr -d '[:space:]' < season.txt)
+SEASON_DIR="./$SEASON"
+RELEASES_DIR="$SEASON_DIR/releases"
+ZIPFILE="$RELEASES_DIR/$CURRENT_DATE.zip"
+
+if [ -z "$SEASON" ]; then
+    echo "season.txt is empty."
+    exit 1
+fi
+
+if [ ! -d "$SEASON_DIR/assets" ]; then
+    echo "Expected season assets at $SEASON_DIR/assets, but that directory does not exist."
+    exit 1
+fi
+
+mkdir -p "$RELEASES_DIR"
 
 echo "Compressing current pack..."
-zip -r $ZIPFILE assets/ pack.mcmeta pack.png README.md
+zip -r "$ZIPFILE" pack.mcmeta pack.png README.md
+(
+    cd "$SEASON_DIR"
+    zip -r "../$ZIPFILE" assets/ -x "*.DS_Store"
+)
 
 ### Copy dated release to releases/final/release.zip ###
-FINAL_RELEASE_DIR="releases/final"
+FINAL_RELEASE_DIR="$RELEASES_DIR/final"
 FINAL_RELEASE_ZIP="$FINAL_RELEASE_DIR/release.zip"
 FINAL_RELEASE_SHA="$FINAL_RELEASE_DIR/hash.txt"
 
-# Delete existing file, if present
-for file in "$FINAL_RELEASE_DIR"/*; do
-    if [ -f "$file" ] && [[ "$file" == *"release.zip"* ]]; then
-        echo "Deleting existing release..."
-        rm "$file"
-    fi
-done
+mkdir -p "$FINAL_RELEASE_DIR"
 
 # Copy file
 echo "Creating new release..."
+rm -f "$FINAL_RELEASE_ZIP"
 cp "$ZIPFILE" "$FINAL_RELEASE_ZIP"
 
 ### Generate SHA1 checksum ###
 echo "Generating SHA1 checksum..."
-CHECKSUM=$(sha1sum $FINAL_RELEASE_ZIP | awk '{print $1}')
+if command -v sha1sum >/dev/null 2>&1; then
+    CHECKSUM=$(sha1sum "$FINAL_RELEASE_ZIP" | awk '{print $1}')
+else
+    CHECKSUM=$(shasum -a 1 "$FINAL_RELEASE_ZIP" | awk '{print $1}')
+fi
 
 # Create file if needed
 if ! [ -f "$FINAL_RELEASE_SHA" ]; then
@@ -57,15 +76,8 @@ echo "Copying README.md to release..."
 CURRENT_README="./README.md"
 RELEASE_README="$FINAL_RELEASE_DIR/README.md"
 
-# Delete existing file, if present
-for file in "$RELEASE_README"/*; do
-    if [ -f "$file" ] && [[ "$file" == *"README.md"* ]]; then
-        echo "Deleting existing README.md..."
-        rm "$file"
-    fi
-done
-
 # Copy file
+rm -f "$RELEASE_README"
 cp "$CURRENT_README" "$RELEASE_README"
 
 ### Commit release ###
