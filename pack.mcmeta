@@ -1,0 +1,18 @@
+{
+  "pack": {
+    "pack_format": 84,
+		"supported_formats": [84],
+		"min_format": 84,
+		"max_format": 84,
+    "description": [
+			{
+				"text": "■ Wyrdcraft Season 1\n■",
+				"color": "#808080"
+			},
+			{
+        "text": " MC Version 26.1.2",
+				"color": "#808080"
+			}
+		]
+  }
+}
