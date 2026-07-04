@@ -37,7 +37,7 @@ zip -r "$ZIPFILE" pack.mcmeta pack.png README.md
 )
 
 ### Copy dated release to releases/final/release.zip ###
-FINAL_RELEASE_DIR="$RELEASES_DIR/final"
+FINAL_RELEASE_DIR="./releases/final"
 FINAL_RELEASE_ZIP="$FINAL_RELEASE_DIR/release.zip"
 FINAL_RELEASE_SHA="$FINAL_RELEASE_DIR/hash.txt"
 
