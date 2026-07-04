@@ -1,0 +1,22 @@
+name: Makefile CI
+
+on:
+  push:
+    branches: [ "main" ]
+
+jobs:
+  build-and-release:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+    
+    - name: Make new build
+      run: make build
+
+    - name: Deploy release
+      uses: s0/git-publish-subdir-action@develop
+      env:
+        REPO: self
+        BRANCH: release
+        FOLDER: releases/final
+        GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
