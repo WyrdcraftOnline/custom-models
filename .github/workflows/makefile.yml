@@ -20,3 +20,17 @@ jobs:
         BRANCH: release
         FOLDER: releases/final
         GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+
+  notify_new_release:
+    # Only run for approval reviews
+    needs: build-and-release
+    runs-on: ubuntu-latest
+    steps:
+      - name: Notify on Discord
+        env:
+          WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+        run: |
+          curl -H "Content-Type: application/json" \
+               -X POST \
+               -d "{\"content\": \"<@&1304940615036960828> a new release of the custom models has been created! Please login to the [Admin Console](https://panel.wabbanode.com/server/90969b73-4292-43ec-9c91-528339ee10cf) and run the `/fetchhash' command to update to the latest resource pack!" \
+               "$WEBHOOK_URL"
