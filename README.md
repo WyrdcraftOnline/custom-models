@@ -117,13 +117,13 @@ Each contributor should claim a unique 100-number range for their custom models.
 If your name is not listed, add yourself using the next available range.
 
 ```markdown
-- **username:** 000–099
+- **username:** 001–099
 - **username:** 100–199
 ```
 
 Current assigned ranges:
 
-* **(username):** (number range)
+* **SHO310:** 001–099
 
 ---
 
@@ -143,7 +143,7 @@ Current models:
 
 * **(username):** (number range)
 
-  * `(number)`: (model name) `(base item)`
+  *  `1`: Glasses Funny Disguise `(carved_pumpkin)`
 
 ---
 
