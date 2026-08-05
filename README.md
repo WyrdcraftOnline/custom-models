@@ -124,6 +124,7 @@ If your name is not listed, add yourself using the next available range.
 Current assigned ranges:
 
 * **SHO310:** 001–099
+* **Lewisgamer327:** 101–199
 
 ---
 
@@ -144,6 +145,7 @@ Current models:
 * **(username):** (number range)
 
   *  `1`: Glasses Funny Disguise `(carved_pumpkin)`
+  *  `101`: Magnifying Glass `(spyglass)`
 
 ---
 
