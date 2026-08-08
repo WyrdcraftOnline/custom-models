@@ -10,7 +10,7 @@
       {
         "model": {
           "type": "model",
-          "model": "custom_model:item/sho/glasses/glasses_funny_disguise"
+          "model": "wyrd_model:item/sho/glasses/glasses_funny_disguise"
         },
         "threshold": 1
       }

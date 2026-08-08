@@ -355,10 +355,10 @@
         }
       },
       {
-        "when": "custom_painting:dadmannwalking01",
+        "when": "wyrd_painting:dadmannwalking01",
         "model": {
           "type": "model",
-          "model": "custom_painting:item/dadmannwalking"
+          "model": "wyrd_painting:item/dadmannwalking"
         }
       }
     ],

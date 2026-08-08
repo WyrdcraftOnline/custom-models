@@ -2,10 +2,10 @@
 	"format_version": "1.21.11",
 	"credit": "made by SHO310",
 	"textures": {
-		"0": "custom_model:item/sho/glasses_funny_disguise/glasses",
-		"1": "custom_model:item/sho/glasses_funny_disguise/eyebrows",
-		"2": "custom_model:item/sho/glasses_funny_disguise/nose",
-		"particle": "custom_model:item/sho/glasses_funny_disguise/glasses"
+		"0": "wyrd_model:item/sho/glasses_funny_disguise/glasses",
+		"1": "wyrd_model:item/sho/glasses_funny_disguise/eyebrows",
+		"2": "wyrd_model:item/sho/glasses_funny_disguise/nose",
+		"particle": "wyrd_model:item/sho/glasses_funny_disguise/glasses"
 	},
 	"elements": [
 		{
