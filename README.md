@@ -142,9 +142,10 @@ The following custom models are currently included in the resource pack.
 
 Current models:
 
-* **(username):** (number range)
-
+* **SHO310:** 1-100
   *  `1`: Glasses Funny Disguise `(carved_pumpkin)`
+
+* **LewisGamer327:** 101-200
   *  `101`: Magnifying Glass `(spyglass)`
 
 ---

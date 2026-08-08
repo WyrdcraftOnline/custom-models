@@ -10,7 +10,7 @@
           "threshold": 101,
           "model": {
             "type": "minecraft:model",
-            "model": "custom:item/lewis/magnifying_glass_in_hand/magnifying_glass_in_hand"
+            "model": "custom_model:item/lewis/magnifying_glass_in_hand/magnifying_glass_in_hand"
           }
         }
       ],
@@ -27,7 +27,7 @@
           "threshold": 100,
           "model": {
             "type": "minecraft:model",
-            "model": "custom:item/lewis/magnifying_glass/magnifying_glass"
+            "model": "custom_model:item/lewis/magnifying_glass/magnifying_glass"
           }
         }
       ],

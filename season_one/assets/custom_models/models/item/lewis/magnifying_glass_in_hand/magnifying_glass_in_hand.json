@@ -3,8 +3,8 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [32, 32],
 	"textures": {
-		"0": "custom:item/lewis/magnifying_glass/texture",
-		"particle": "custom:item/lewis/magnifying_glass/texture"
+		"0": "custom_model:item/lewis/magnifying_glass/texture",
+		"particle": "custom_model:item/lewis/magnifying_glass/texture"
 	},
 	"elements": [
 		{
@@ -245,9 +245,8 @@
 	"gui_light": "front",
 	"display": {
 		"thirdperson_righthand": {
-			"rotation": [-155.12, -74.18, -103.59],
-			"translation": [1, 5, -0.75],
-			"scale": [0.6, 0.6, 0.6]
+			"rotation": [-21, 0, 0],
+			"translation": [-3.5, 12, 10]
 		},
 		"thirdperson_lefthand": {
 			"rotation": [-151.12, 86.93, -44.31],
@@ -267,6 +266,11 @@
 		"gui": {
 			"rotation": [0, 0, 94],
 			"translation": [-2, 2, 3.75]
+		},
+		"head": {
+			"rotation": [0, -180, 0],
+			"translation": [0, 0, -12],
+			"scale": [0.9, 0.9, 0.9]
 		},
 		"fixed": {
 			"translation": [1.75, 3.25, -0.75]
