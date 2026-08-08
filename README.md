@@ -18,7 +18,11 @@ This resource pack also contains the client-side assets for Wyrdcraft custom pai
 
 Custom paintings require both this resource pack and the matching custom paintings datapack. The datapack defines the painting variants, recipes, and server-side behavior that make the paintings available in game.
 
+For resource-pack asset instructions, see [Custom Painting Assets](custom_paintings.md).
+
 Datapack repo: [Wyrdcraft Custom Paintings](https://github.com/WyrdcraftOnline/wyrd-paintings)
+
+---
 
 ## How This Repo Works
 
