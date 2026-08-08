@@ -1,4 +1,4 @@
-# Wyrdcraft Custom Models
+# Wyrdcraft Custom Assets
 
 This repository contains the custom assets resource pack for the Wyrdcraft SMP.
 
@@ -14,11 +14,7 @@ In this example, `1` is the `CustomModelData` value assigned to a specific custo
 ---
 
 ## Custom Paintings
-This resource pack also contains the client-side assets for Wyrdcraft custom paintings, including painting textures, item icons, item models, and language entries.
-
-Custom paintings require both this resource pack and the matching custom paintings datapack. The datapack defines the painting variants, recipes, and server-side behavior that make the paintings available in game.
-
-Datapack repo: [Wyrdcraft Custom Paintings](https://github.com/WyrdcraftOnline/wyrd-paintings)
+[SOME TEXT ABOUT HOW CUSTOM PAINTINGS WORK, LINK TO DATAPACK REPO]
 
 ## How This Repo Works
 
