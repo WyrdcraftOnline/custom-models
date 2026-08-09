@@ -4,18 +4,18 @@ set -euo pipefail
 ###### NEW PROCESS ######
 # We are going to start using a github action to run the compression and generate
 # the hashh. A rough outline of the new process is as follows:
-# 1. Generate dated release as we do now
+# 1. Generate timestamped soft release
 # 2. Copy generated release to releases/final/release.zip
 # 3. Generate SHA1 checksum on release.zip
 # 4. Write SHA1 checksum to releases/final/hash.txt
 # 5. Copy current README to releases/final/
 
-### Generate dated release ###
-CURRENT_DATE=$(date "+%Y-%m-%d")
+### Generate timestamped soft release ###
+TIMESTAMP=$(date "+%Y-%m-%d_%H-%M-%S")
 SEASON=$(tr -d '[:space:]' < season.txt)
 SEASON_DIR="./$SEASON"
-RELEASES_DIR="$SEASON_DIR/releases"
-ZIPFILE="$RELEASES_DIR/$CURRENT_DATE.zip"
+RELEASES_DIR="./releases"
+SOFT_RELEASE_ZIP="$RELEASES_DIR/$TIMESTAMP.zip"
 
 if [ -z "$SEASON" ]; then
     echo "season.txt is empty."
@@ -30,10 +30,11 @@ fi
 mkdir -p "$RELEASES_DIR"
 
 echo "Compressing current pack..."
-zip -r "$ZIPFILE" pack.mcmeta pack.png README.md
+rm -f "$SOFT_RELEASE_ZIP"
+zip -r "$SOFT_RELEASE_ZIP" pack.mcmeta pack.png README.md -x "*.DS_Store"
 (
     cd "$SEASON_DIR"
-    zip -r "../$ZIPFILE" assets/ -x "*.DS_Store"
+    zip -r "../$SOFT_RELEASE_ZIP" assets/ -x "*.DS_Store" -x "releases/*"
 )
 
 ### Copy dated release to releases/final/release.zip ###
@@ -46,7 +47,7 @@ mkdir -p "$FINAL_RELEASE_DIR"
 # Copy file
 echo "Creating new release..."
 rm -f "$FINAL_RELEASE_ZIP"
-cp "$ZIPFILE" "$FINAL_RELEASE_ZIP"
+cp "$SOFT_RELEASE_ZIP" "$FINAL_RELEASE_ZIP"
 
 ### Generate SHA1 checksum ###
 echo "Generating SHA1 checksum..."
@@ -66,7 +67,7 @@ fi
 echo "Writing SHA1 checksum to file..."
 echo "$CHECKSUM" > "$FINAL_RELEASE_SHA"
 
-printf "\e[1;31mThe latest release has been generated at $ZIPFILE.\e[0m\n"
+printf "\e[1;31mThe soft release has been generated at $SOFT_RELEASE_ZIP.\e[0m\n"
 printf "\e[1;31mA final release has been generated at $FINAL_RELEASE_ZIP.\e[0m\n"
 printf "\e[1;31mThe SHA1 checksum for the final release has been saved to $FINAL_RELEASE_SHA.\e[0m\n"
 printf "\e[1;31mFor posterity, the generated checksum is $CHECKSUM.\e[0m\n"

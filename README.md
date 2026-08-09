@@ -1,7 +1,8 @@
 # Wyrdcraft Custom Models
 
-This repository contains the custom model resource pack for the Wyrdcraft SMP.
+This repository contains the custom assets resource pack for the Wyrdcraft SMP.
 
+## Custom Models
 The pack allows approved custom models to be assigned to specific items or blocks using Minecraft’s `CustomModelData` system. On the server, players can apply a model by using the `/trigger` command with the correct custom model number.
 
 ```mcfunction
@@ -9,6 +10,17 @@ The pack allows approved custom models to be assigned to specific items or block
 ```
 
 In this example, `1` is the `CustomModelData` value assigned to a specific custom model.
+
+---
+
+## Custom Paintings
+This resource pack also contains the client-side assets for Wyrdcraft custom paintings, including painting textures, item icons, item models, and language entries.
+
+Custom paintings require both this resource pack and the matching custom paintings datapack. The datapack defines the painting variants, recipes, and server-side behavior that make the paintings available in game.
+
+For resource-pack asset instructions, see [Custom Painting Assets](custom_paintings.md).
+
+Datapack repo: [Wyrdcraft Custom Paintings](https://github.com/WyrdcraftOnline/wyrd-paintings)
 
 ---
 
@@ -142,9 +154,10 @@ The following custom models are currently included in the resource pack.
 
 Current models:
 
-* **(username):** (number range)
-
+* **SHO310:** 1-100
   *  `1`: Glasses Funny Disguise `(carved_pumpkin)`
+
+* **LewisGamer327:** 101-200
   *  `101`: Magnifying Glass `(spyglass)`
 
 ---
