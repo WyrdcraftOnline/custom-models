@@ -2,6 +2,8 @@
 
 This repository contains the custom assets resource pack for the Wyrdcraft SMP.
 
+Want to contribute but don't know how? Check out the [Pull Requests for Dummies Guide](https://github.com/WyrdcraftOnline/custom-models/blob/main/pull_request_for_dummies.md).
+
 ## Custom Models
 The pack allows approved custom models to be assigned to specific items or blocks using Minecraft’s `CustomModelData` system. On the server, players can apply a model by using the `/trigger` command with the correct custom model number.
 
@@ -21,6 +23,13 @@ Custom paintings require both this resource pack and the matching custom paintin
 For resource-pack asset instructions, see [Custom Painting Assets](custom_paintings.md).
 
 Datapack repo: [Wyrdcraft Custom Paintings](https://github.com/WyrdcraftOnline/wyrd-paintings)
+
+---
+
+## Skins on Armor Stands
+This resource pack also contains the client-side assets for displaying custom Minecraft skins on armor stands, including the armor stand CEM model, skin textures, and name-based texture rules.
+
+Armor stand skins are handled directly in this resource pack. For asset instructions, see [Armor Stand Skin Assets](armor_stands.md).
 
 ---
 
@@ -140,7 +149,7 @@ Current assigned ranges:
 
 ---
 
-## Contained Models
+## Contained Assets
 
 The following custom models are currently included in the resource pack.
 
@@ -152,13 +161,26 @@ The following custom models are currently included in the resource pack.
   - `number`: Model Name `(base item)`
 ```
 
-Current models:
+### Custom Item Models:
 
 * **SHO310:** 1-100
   *  `1`: Glasses Funny Disguise `(carved_pumpkin)`
 
 * **LewisGamer327:** 101-200
   *  `101`: Magnifying Glass `(spyglass)`
+
+### Custom Paintings
+
+The following custom paintings are currently included in the resource pack.
+
+* `wyrd_painting:dadmannwalking01`: "A Fresh Start" by dadmannwalking
+
+### Custom Armor Stand Skins
+
+The following armor stand skins are currently included in the resource pack.
+
+* `Thatoneguyjames`: ThatOneGuyJames
+* `Dadmann`: dadmannwalking 
 
 ---
 
