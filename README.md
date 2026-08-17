@@ -165,6 +165,7 @@ The following custom models are currently included in the resource pack.
 
 * **SHO310:** 1-100
   *  `1`: Glasses Funny Disguise `(carved_pumpkin)`
+  *  `2`: Elytra 1 `(Elytra)`
 
 * **LewisGamer327:** 101-200
   *  `101`: Magnifying Glass `(spyglass)`
