@@ -2,7 +2,7 @@
 
 This repository contains the custom assets resource pack for the Wyrdcraft SMP.
 
-Want to contribute but don't know how? Check out the [Pull Requests for Dummies Guide](https://github.com/WyrdcraftOnline/custom-models/blob/main/pull_request_for_dummies.md).
+Want to contribute but don't know how? Check out the [docs overview](docs/overview.md), the [Creating a Model for Dummies Guide](docs/custom_models_for_dummies.md), and the [Pull Requests for Dummies Guide](docs/pull_request_for_dummies.md).
 
 ## Custom Models
 The pack allows approved custom models to be assigned to specific items or blocks using Minecraft’s `CustomModelData` system. On the server, players can apply a model by using the `/trigger` command with the correct custom model number.
@@ -20,7 +20,7 @@ This resource pack also contains the client-side assets for Wyrdcraft custom pai
 
 Custom paintings require both this resource pack and the matching custom paintings datapack. The datapack defines the painting variants, recipes, and server-side behavior that make the paintings available in game.
 
-For resource-pack asset instructions, see [Custom Painting Assets](custom_paintings.md).
+For resource-pack asset instructions, see [Custom Painting Assets](docs/custom_paintings.md).
 
 Datapack repo: [Wyrdcraft Custom Paintings](https://github.com/WyrdcraftOnline/wyrd-paintings)
 
@@ -29,7 +29,7 @@ Datapack repo: [Wyrdcraft Custom Paintings](https://github.com/WyrdcraftOnline/w
 ## Skins on Armor Stands
 This resource pack also contains the client-side assets for displaying custom Minecraft skins on armor stands, including the armor stand CEM model, skin textures, and name-based texture rules.
 
-Armor stand skins are handled directly in this resource pack. For asset instructions, see [Armor Stand Skin Assets](armor_stands.md).
+Armor stand skins are handled directly in this resource pack. For asset instructions, see [Armor Stand Skin Assets](docs/armor_stands.md).
 
 ---
 
@@ -42,6 +42,8 @@ Please do not use numbers outside of your assigned range unless you have cleared
 ---
 
 ## Adding Custom Models
+
+For a beginner-friendly walkthrough of model JSON, textures, file structure, file names, and `CustomModelData` mappings, see [Creating a Custom Model for Wyrdcraft - For Dummies](docs/custom_models_for_dummies.md).
 
 Before submitting a model, please make sure it has been tested locally and follows the existing pack structure.
 
