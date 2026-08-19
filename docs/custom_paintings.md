@@ -11,20 +11,20 @@ Custom paintings require both:
 
 Custom painting textures should be created at the same size as the datapack painting variant's `width` and `height` values.
 
-Default Minecraft painting borders can be found in the `helpers/` folder. Finished examples for each supported size can be found in `helpers/example/`.
+Default Minecraft painting borders can be found in the `../helpers/` folder. Finished examples for each supported size can be found in `../helpers/example/`.
 
 Use the helper that matches the painting variant `width` and `height` values:
 
 | Painting Size | Canvas Size | Border Helper | Example Image |
 | --- | ---: | --- | --- |
-| 1x1 | 160x160 | `helpers/border-1_1.png` | <img src="helpers/example/1x1-Albanian.webp" alt="1x1 Albanian painting example" width="80"> |
-| 1x2 | 160x320 | `helpers/border-1_2.png` | <img src="helpers/example/1x2-Graham.webp" alt="1x2 Graham painting example" width="80"> |
-| 2x1 | 320x160 | `helpers/border-2_1.png` | <img src="helpers/example/2x1-Sea.webp" alt="2x1 Sea painting example" width="120"> |
-| 2x2 | 320x320 | `helpers/border-2_2.png` | <img src="helpers/example/2x2-Match.webp" alt="2x2 Match painting example" width="100"> |
-| 3x4 | 459x612 | `helpers/border-3_4.png` | <img src="helpers/example/3x4Backyard.webp" alt="3x4 Backyard painting example" width="100"> |
-| 4x2 | 640x320 | `helpers/border-4_2.png` | <img src="helpers/example/4x2-Fighters.webp" alt="4x2 Fighters painting example" width="140"> |
-| 4x3 | 640x480 | `helpers/border-4_3.png` | <img src="helpers/example/4x3-Donkey_Kong.webp" alt="4x3 Donkey Kong painting example" width="140"> |
-| 4x4 | 640x640 | `helpers/border-4_4.png` | <img src="helpers/example/4x4-Pointer.webp" alt="4x4 Pointer painting example" width="120"> |
+| 1x1 | 160x160 | `../helpers/border-1_1.png` | <img src="../helpers/example/1x1-Albanian.webp" alt="1x1 Albanian painting example" width="80"> |
+| 1x2 | 160x320 | `../helpers/border-1_2.png` | <img src="../helpers/example/1x2-Graham.webp" alt="1x2 Graham painting example" width="80"> |
+| 2x1 | 320x160 | `../helpers/border-2_1.png` | <img src="../helpers/example/2x1-Sea.webp" alt="2x1 Sea painting example" width="120"> |
+| 2x2 | 320x320 | `../helpers/border-2_2.png` | <img src="../helpers/example/2x2-Match.webp" alt="2x2 Match painting example" width="100"> |
+| 3x4 | 459x612 | `../helpers/border-3_4.png` | <img src="../helpers/example/3x4Backyard.webp" alt="3x4 Backyard painting example" width="100"> |
+| 4x2 | 640x320 | `../helpers/border-4_2.png` | <img src="../helpers/example/4x2-Fighters.webp" alt="4x2 Fighters painting example" width="140"> |
+| 4x3 | 640x480 | `../helpers/border-4_3.png` | <img src="../helpers/example/4x3-Donkey_Kong.webp" alt="4x3 Donkey Kong painting example" width="140"> |
+| 4x4 | 640x640 | `../helpers/border-4_4.png` | <img src="../helpers/example/4x4-Pointer.webp" alt="4x4 Pointer painting example" width="120"> |
 
 For example, a datapack variant with `"width": 4` and `"height": 3` should use the `4x3` helper and a `640x480` painting texture.
 

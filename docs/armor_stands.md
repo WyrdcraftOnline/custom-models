@@ -88,4 +88,4 @@ Before opening a resource-pack pull request for an armor stand skin, make sure y
 * Used the next available `armorstandN.png` file name
 * Added the matching `skins.N` and `name.N` entries to `armorstand.properties`
 * Tested the named armor stand in game if possible
-* Updated the **Custom Armor Stand Skins** list in `README.md`
+* Updated the **Custom Armor Stand Skins** list in [`README.md`](../README.md)

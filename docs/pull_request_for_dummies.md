@@ -154,14 +154,14 @@ Your model needs to use a number from **your** range.
 
 > [!IMPORTANT] 
 > Do not randomly pick a number.
-> If you're not sure which range belongs to you, check the **Assigned Number Ranges** section of the repository's `README.md`.
+> If you're not sure which range belongs to you, check the **Assigned Number Ranges** section of the repository's [`README.md`](../README.md).
 > 
 > If you don't have a range yet, claim the next available range or ask in the Wyrdcraft Discord.
 
 ---
 # Part 7 — Update the README
 Don't forget this part!
-1. Open `README.md`
+1. Open [`README.md`](../README.md)
 2. Find the **Contained Models** section
 3. Add your new model underneath your name.
 
@@ -357,7 +357,7 @@ Every time you want to submit something:
 * [ ] Add your files
 * [ ] Use a number from your assigned range
 * [ ] Follow the file naming rules
-* [ ] Update `README.md`
+* [ ] Update [`README.md`](../README.md)
 * [ ] Test the model in Minecraft
 * [ ] Review the files GitHub says you changed
 * [ ] Commit your changes
