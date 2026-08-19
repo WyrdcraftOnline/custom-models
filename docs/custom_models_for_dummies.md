@@ -11,7 +11,7 @@ season_one
 
 Treat that folder as the root of the actual resource pack assets.
 
-> [!INFO]
+> [!NOTE]
 > If `season.txt` changes in the future, use the folder named in `season.txt` instead of assuming `season_one`.
 
 ## What You Are Adding
@@ -51,7 +51,7 @@ Do not use:
 * Parentheses
 * Other special characters
 
-> [!INFO]
+> [!NOTE]
 > Good file names:
 > ```text
 > ancient_staff.json
@@ -71,7 +71,7 @@ Do not use:
 
 Use the same simple name everywhere. If your model is called `ancient_staff`, then your JSON and texture paths should also say `ancient_staff`.
 
-> [!DANGER]
+> [!CAUTION]
 > File names and JSON paths must match exactly. `ancient_staff`, `Ancient_Staff`, and `ancient-staff` are three different names to Minecraft.
 
 ## Recommended Folder Pattern
@@ -125,7 +125,7 @@ For this repo, the namespace for custom models is:
 wyrd_model
 ```
 
-> [!INFO]
+> [!NOTE]
 > `wyrd_model:item/exampleuser/ancient_staff/ancient_staff` points to a model file under `assets/wyrd_model/models/item/...`. `wyrd_model:item/exampleuser/ancient_staff/texture` points to a texture file under `assets/wyrd_model/textures/item/...`.
 
 ## Texture Files
@@ -162,7 +162,7 @@ Example:
 
 The `particle` texture is what Minecraft uses for small particles when the item is broken or displayed in some contexts. Usually, point it at your main texture.
 
-> [!INFO]
+> [!NOTE]
 > If your model uses multiple textures, each texture key, such as `"0"`, `"1"`, or `"particle"`, must point to an existing PNG file.
 
 ## Model JSON
@@ -259,7 +259,7 @@ If your assigned range is `200-299`, your first model might use:
 > [!WARNING]
 > Do not reuse someone else's number. Do not guess.
 
-> [!DANGER]
+> [!CAUTION]
 > Reusing a `CustomModelData` number can make two models fight for the same item. One model may disappear, or someone else's existing model may be replaced.
 
 ## Base Item
@@ -275,7 +275,7 @@ elytra
 
 The base item decides which Minecraft item the player holds or wears. The custom model only changes how that item looks when the right `CustomModelData` number is applied.
 
-> [!INFO]
+> [!NOTE]
 > Pick the base item based on how the item should behave in game. For example, use `carved_pumpkin` for head cosmetics, `spyglass` for spyglass behavior, and `elytra` for wearable wings.
 
 ## Mapping Your Number to Your Model
@@ -295,7 +295,7 @@ season_one/assets/minecraft/items/stick.json
 
 If the base item file does not exist yet, create it.
 
-> [!DANGER]
+> [!CAUTION]
 > If the base item file already exists, do not delete its existing entries. Those entries are probably other players' models.
 
 ### Simple Base Item Mapping
@@ -368,7 +368,7 @@ Make sure entries are separated with commas:
 
 JSON does not allow a trailing comma after the last item.
 
-> [!INFO]
+> [!NOTE]
 > This is valid:
 > ```json
 > [
@@ -389,7 +389,7 @@ JSON does not allow a trailing comma after the last item.
 ## Important Special Cases
 Some items need extra structure.
 
-> [!INFO]
+> [!NOTE]
 > If your item is a normal handheld object, the simple base item mapping is usually enough. If it has special vanilla behavior, check whether it needs one of the patterns below.
 
 ### Spyglass
@@ -435,7 +435,7 @@ season_one/assets/wyrd_model/items/sho_elytra_1.json
 
 If you are adding elytra, copy the pattern of the existing elytra files and test it in game.
 
-> [!DANGER]
+> [!CAUTION]
 > Elytra are more than a single item texture. Missing the equipment texture or equipment JSON can make the inventory item look correct while the worn wings are broken or invisible.
 
 ### Wearable Head Items
@@ -472,7 +472,7 @@ season_one/assets/minecraft/items/
 
 If you are copying an existing model that already has a matching file under `wyrd_model/items/`, keep that pattern. If you are adding a simple model and are unsure whether you need one, ask a pack maintainer before inventing a new structure.
 
-> [!INFO]
+> [!NOTE]
 > When in doubt, copy the closest existing model's structure and change only the names, paths, textures, and `CustomModelData` number needed for your model.
 
 ## Full Example
@@ -558,10 +558,10 @@ If Minecraft ignores the file, check:
 * Did you leave a trailing comma in JSON?
 * Did you save the file with the correct extension?
 ## Testing
-> [!INFO]
+> [!NOTE]
 > Before opening a pull request, test the pack in Minecraft.
 
-> [!DANGER]
+> [!CAUTION]
 > Do not submit an untested model if you can test it. Broken JSON or missing textures can affect more than just your item.
 
 At minimum, confirm:
@@ -579,7 +579,7 @@ make
 
 That creates a release zip and can catch some obvious packaging problems. It does not replace testing in Minecraft.
 
-> [!INFO]
+> [!NOTE]
 > `make` is useful for checking that the pack can be packaged, but Minecraft is the real test for model position, texture paths, and item behavior.
 
 ## Pull Request Checklist
