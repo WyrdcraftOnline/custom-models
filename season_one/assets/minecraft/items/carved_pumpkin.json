@@ -13,6 +13,13 @@
           "model": "wyrd_model:item/sho/glasses/glasses_funny_disguise"
         },
         "threshold": 1
+    },
+      {
+        "model": {
+          "type": "model",
+          "model": "wyrd_model:item/james/sun_glasses"
+        },
+        "threshold": 200
       }
     ]
   }

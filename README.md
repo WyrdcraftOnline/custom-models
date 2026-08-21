@@ -148,7 +148,7 @@ Current assigned ranges:
 
 * **SHO310:** 001–099
 * **Lewisgamer327:** 101–199
-
+* **ThatOneGuyJames:** 200–299
 ---
 
 ## Contained Assets
@@ -171,6 +171,10 @@ The following custom models are currently included in the resource pack.
 
 * **LewisGamer327:** 101-200
   *  `101`: Magnifying Glass `(spyglass)`
+
+* **LewisGamer327:** 200-299
+  *  `200`: Sung Glasses `(carved pumpkin)`
+  *  `201`: Edible Fire `(Golden Carrot)`
 
 ### Custom Paintings
 
