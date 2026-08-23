@@ -173,8 +173,13 @@ The following custom models are currently included in the resource pack.
   *  `101`: Magnifying Glass `(spyglass)`
 
 * **LewisGamer327:** 200-299
-  *  `200`: Sung Glasses `(carved pumpkin)`
-  *  `201`: Edible Fire `(Golden Carrot)`
+  *  `200`: Sun Glasses `(carved pumpkin)`
+  *  `201`: Sun Glasses Two Bits `(carved pumpkin)`
+  *  `202`: Sun Glasses Dadmann `(carved pumpkin)`
+  *  `203`: Brown Cowboy Hat `(carved pumpkin)`
+  *  `204`: Bright Brown Cowboy Hat `(carved pumpkin)`
+  *  `205`: Black Cowboy Hat `(carved pumpkin)`
+  *  `206`: Edible Fire `(Golden Carrot)`
 
 ### Custom Paintings
 
@@ -188,6 +193,14 @@ The following armor stand skins are currently included in the resource pack.
 
 * `Thatoneguyjames`: ThatOneGuyJames
 * `Dadmann`: dadmannwalking 
+* `alex`: official Minecraft skin
+* `ari`: official Minecraft skin
+* `efe`: official Minecraft skin
+* `kai`: official Minecraft skin
+* `makena`: official Minecraft skin
+* `noor`: official Minecraft skin
+* `zuri`: official Minecraft skin
+* `sunny`: official Minecraft skin
 
 ---
 

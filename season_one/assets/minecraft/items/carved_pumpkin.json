@@ -20,6 +20,41 @@
           "model": "wyrd_model:item/james/sun_glasses"
         },
         "threshold": 200
+    },
+      {
+        "model": {
+          "type": "model",
+          "model": "wyrd_model:item/james/sunglasses_twobits"
+        },
+        "threshold": 201
+    },
+      {
+        "model": {
+          "type": "model",
+          "model": "wyrd_model:item/james/sunglasses_dadmann"
+        },
+        "threshold": 202
+ },
+      {
+        "model": {
+          "type": "model",
+          "model": "wyrd_model:item/james/brown_cowboy_hat"
+        },
+        "threshold": 203
+ },
+      {
+        "model": {
+          "type": "model",
+          "model": "wyrd_model:item/james/bright_brown_cowboy_hat"
+        },
+        "threshold": 204
+ },
+      {
+        "model": {
+          "type": "model",
+          "model": "wyrd_model:item/james/black_cowboy_hat"
+        },
+        "threshold": 205
       }
     ]
   }

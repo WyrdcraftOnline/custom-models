@@ -12,7 +12,7 @@
           "type": "model",
           "model": "wyrd_model:item/james/edible_fire"
         },
-        "threshold": 202
+        "threshold": 206
       }
     ]
   }

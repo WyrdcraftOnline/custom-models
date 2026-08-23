@@ -2,8 +2,8 @@
 	"format_version": "1.21.11",
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "wyrd_model:item/james/sun_glasses",
-		"particle": "wyrd_model:item/james/sun_glasses"
+		"0": "wyrd_model:item/james/sunglasses_dadmann",
+		"particle": "wyrd_model:item/james/sunglasses_dadmann"
 	},
 	"elements": [
 		{
@@ -152,7 +152,7 @@
 			"translation": [-2.75, 0, 0]
 		},
 		"head": {
-			"translation": [1.5, -1, 0]
+			"translation": [1.5, 0.25, -0.5]
 		},
 		"fixed": {
 			"rotation": [-90, 0, 0],
