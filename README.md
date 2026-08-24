@@ -180,6 +180,7 @@ The following custom models are currently included in the resource pack.
   *  `204`: Bright Brown Cowboy Hat `(carved pumpkin)`
   *  `205`: Black Cowboy Hat `(carved pumpkin)`
   *  `206`: Edible Fire `(Golden Carrot)`
+  *  `207`: Edible Redstone `(Golden Carrot)`
 
 ### Custom Paintings
 
