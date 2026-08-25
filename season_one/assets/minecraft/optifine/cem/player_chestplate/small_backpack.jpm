@@ -1,0 +1,54 @@
+{
+	"texture": "optifine/cem/player_chestplate/small_backpack.png",
+	"id": "small_backpack",
+	"invertAxis": "xy",
+	"translate": [0, 0, 0],
+	"submodels": [
+		{
+			"id": "small_backpack",
+			"invertAxis": "xy",
+			"translate": [-4, 13, 5],
+			"rotate": [0, 90, 0],
+			"boxes": [
+				{
+					"coordinates": [0, 3, 0, 3, 7, 8],
+					"uvNorth": [16, 8, 19, 15],
+					"uvEast": [0, 0, 8, 7],
+					"uvSouth": [16, 15, 19, 22],
+					"uvWest": [0, 7, 8, 14],
+					"uvUp": [3, 22, 0, 14],
+					"uvDown": [6, 14, 3, 22]
+				},
+				{
+					"coordinates": [-1, 6, -0.5, 1, 4, 9],
+					"uvNorth": [17, 2, 18, 6],
+					"uvEast": [8, 0, 17, 4],
+					"uvSouth": [8, 17, 9, 21],
+					"uvWest": [8, 4, 17, 8],
+					"uvUp": [7, 23, 6, 14],
+					"uvDown": [8, 14, 7, 23]
+				},
+				{
+					"coordinates": [-1, 10, -0.5, 4, 0.5, 9],
+					"uvNorth": [17, 6, 21, 7],
+					"uvEast": [17, 0, 26, 1],
+					"uvSouth": [17, 7, 21, 8],
+					"uvWest": [17, 1, 26, 2],
+					"uvUp": [12, 17, 8, 8],
+					"uvDown": [16, 8, 12, 17]
+				},
+				{
+					"coordinates": [-1.5, 7, 3, 0.5, 1, 2],
+					"uvNorth": [15, 17, 16, 18],
+					"uvEast": [9, 17, 11, 18],
+					"uvSouth": [18, 2, 19, 3],
+					"uvWest": [11, 17, 13, 18],
+					"uvUp": [14, 19, 13, 17],
+					"uvDown": [15, 17, 14, 19]
+				}
+			]
+		}
+	],
+	"credit": "Made with Blockbench",
+	"textureSize": [32, 32]
+}

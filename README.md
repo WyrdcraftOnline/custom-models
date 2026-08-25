@@ -169,10 +169,10 @@ The following custom models are currently included in the resource pack.
   *  `1`: Glasses Funny Disguise `(carved_pumpkin)`
   *  `2`: Elytra 1 `(Elytra)`
 
-* **LewisGamer327:** 101-200
+* **LewisGamer327:** 101-199
   *  `101`: Magnifying Glass `(spyglass)`
 
-* **LewisGamer327:** 200-299
+* **ThatOneGuyJames:** 200-299
   *  `200`: Sun Glasses `(carved pumpkin)`
   *  `201`: Sun Glasses Two Bits `(carved pumpkin)`
   *  `202`: Sun Glasses Dadmann `(carved pumpkin)`
@@ -181,6 +181,9 @@ The following custom models are currently included in the resource pack.
   *  `205`: Black Cowboy Hat `(carved pumpkin)`
   *  `206`: Edible Fire `(Golden Carrot)`
   *  `207`: Edible Redstone `(Golden Carrot)`
+
+* **Noodls:** 300-399
+  *  `300`: Mushsandwich `(bread)`
 
 ### Custom Paintings
 
