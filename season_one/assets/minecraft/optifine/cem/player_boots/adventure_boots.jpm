@@ -1,5 +1,5 @@
 {
-	"texture": "optifine/cem/player_boots/boots.png",
+	"texture": "optifine/cem/textures/sho/boots.png",
 	"id": "adventure_boots",
 	"invertAxis": "xy",
 	"translate": [0, 0, 0],

@@ -1,5 +1,5 @@
 {
-	"texture": "optifine/cem/blank.png",
+	"texture": "optifine/cem/textures/sho/blank.png",
   "models": [
     {
       "invertAxis": "xy",

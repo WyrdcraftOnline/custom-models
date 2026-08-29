@@ -1,7 +1,6 @@
 # Wyrdcraft Custom Models
 
 This repository contains the custom assets resource pack for the Wyrdcraft SMP.
-
 Want to contribute but don't know how? Check out the [docs overview](docs/overview.md), the [Creating a Model for Dummies Guide](docs/custom_models_for_dummies.md), and the [Pull Requests for Dummies Guide](docs/pull_request_for_dummies.md).
 
 ## Custom Models
@@ -17,18 +16,15 @@ In this example, `1` is the `CustomModelData` value assigned to a specific custo
 
 ## Custom Paintings
 This resource pack also contains the client-side assets for Wyrdcraft custom paintings, including painting textures, item icons, item models, and language entries.
-
 Custom paintings require both this resource pack and the matching custom paintings datapack. The datapack defines the painting variants, recipes, and server-side behavior that make the paintings available in game.
-
 For resource-pack asset instructions, see [Custom Painting Assets](docs/custom_paintings.md).
-
 Datapack repo: [Wyrdcraft Custom Paintings](https://github.com/WyrdcraftOnline/wyrd-paintings)
 
 ---
 
 ## Skins on Armor Stands
-This resource pack also contains the client-side assets for displaying custom Minecraft skins on armor stands, including the armor stand CEM model, skin textures, and name-based texture rules.
 
+This resource pack also contains the client-side assets for displaying custom Minecraft skins on armor stands, including the armor stand CEM model, skin textures, and name-based texture rules.
 Armor stand skins are handled directly in this resource pack. For asset instructions, see [Armor Stand Skin Assets](docs/armor_stands.md).
 
 ---
@@ -36,7 +32,6 @@ Armor stand skins are handled directly in this resource pack. For asset instruct
 ## How This Repo Works
 
 Each custom model is assigned a unique number. To avoid conflicts, every contributor should claim a dedicated number range before adding models to the pack.
-
 Please do not use numbers outside of your assigned range unless you have cleared it with the rest of the group.
 
 ---
@@ -58,7 +53,6 @@ Example:
 ```
 
 Use only numbers from your assigned range for your models.
-
 If you run out of numbers, you may claim another available range.
 
 ---
@@ -66,7 +60,6 @@ If you run out of numbers, you may claim another available range.
 ### 2. Add Your Model Files
 
 Add your custom model, textures, and any required JSON files to the appropriate folders in the resource pack.
-
 Make sure your file paths match Minecraft’s expected structure and that your model works in-game before opening a pull request.
 
 ---
@@ -103,7 +96,6 @@ Minecraft can be picky about file names, so keeping everything lowercase and sim
 ### 4. Document Your Model
 
 After adding your model, update the **Contained Models** section with your new entry.
-
 Please include:
 
 * The model number
@@ -136,7 +128,6 @@ All changes should be reviewed before being merged into the main branch.
 ## Assigned Number Ranges
 
 Each contributor should claim a unique 100-number range for their custom models.
-
 If your name is not listed, add yourself using the next available range.
 
 ```markdown
@@ -146,9 +137,10 @@ If your name is not listed, add yourself using the next available range.
 
 Current assigned ranges:
 
-* **SHO310:** 001–099
+* **SHO310:** 001–100
 * **Lewisgamer327:** 101–199
 * **ThatOneGuyJames:** 200–299
+* **Noodls:** 300-399
 ---
 
 ## Contained Assets
@@ -206,14 +198,22 @@ The following armor stand skins are currently included in the resource pack.
 * `zuri`: official Minecraft skin
 * `sunny`: official Minecraft skin
 
+### Custom Entity Models
+
+The following custom entity models are currently included in the resource pack.
+
+* **SHO310:**
+  * `Ruinbound Carrier`: Small Backpack `(Chestplate)`
+  * `Runic Sheath`: Sword and Scabbard `(Chestplate)`
+  * `Runic Satchel`: Pouch `(Leggings)`
+  * `Ruinstep Boots`: Adventure Boots `(Boots)`
+
 ---
 
 ## Creating a Release
 
 Releases are handled automatically through continuous integration.
-
 Once a pull request is approved and merged into the main branch, the release workflow will automatically create an updated version of the resource pack on the `release` branch.
-
 No manual release build is required.
 
 ---
@@ -221,7 +221,6 @@ No manual release build is required.
 ## Updating the Server
 
 After your pull request has been merged, the server still needs to be updated so it knows which key to use to decrypt the latest pack.
-
 Please contact an admin and ask them to run the following command from the server console:
 
 ```mcfunction
