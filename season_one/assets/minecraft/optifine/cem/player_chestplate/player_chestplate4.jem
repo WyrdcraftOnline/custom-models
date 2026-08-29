@@ -52,10 +52,10 @@
       ],
       "submodels": [
         {
-          "id": "small_backpack",
+          "id": "sword_and_scabbard",
           "invertAxis": "xy",
           "translate": [0, 0, 0],
-          "model": "small_backpack.jpm"
+          "model": "sword_and_scabbard.jpm"
         }
       ],
       "boxes": [

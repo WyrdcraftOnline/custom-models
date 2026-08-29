@@ -8,8 +8,25 @@
       "attach": false,
       "translate": [
         -1.9,
-        -12.0,
+        -13.0,
         0.0
+      ],
+      "boxes": [
+        {
+          "textureOffset": [
+            0,
+            16
+          ],
+          "sizeAdd": 0.4,
+          "coordinates": [
+            -0.100000024,
+            1.0,
+            -2.0,
+            4.0,
+            12.0,
+            4.0
+          ]
+        }
       ]
     },
     {
@@ -21,23 +38,6 @@
         -5.0,
         -22.0,
         0.0
-      ],
-      "boxes": [
-        {
-          "textureOffset": [
-            40,
-            16
-          ],
-          "sizeAdd": 1.0,
-          "coordinates": [
-            4.0,
-            12.0,
-            -2.0,
-            4.0,
-            12.0,
-            4.0
-          ]
-        }
       ]
     },
     {
@@ -50,21 +50,13 @@
         -24.0,
         0.0
       ],
-      "submodels": [
-        {
-          "id": "small_backpack",
-          "invertAxis": "xy",
-          "translate": [0, 0, 0],
-          "model": "small_backpack.jpm"
-        }
-      ],
       "boxes": [
         {
           "textureOffset": [
             16,
             16
           ],
-          "sizeAdd": 1.0,
+          "sizeAdd": 0.5,
           "coordinates": [
             -4.0,
             12.0,
@@ -83,7 +75,7 @@
       "attach": false,
       "translate": [
         0.0,
-        -24.0,
+        -23.0,
         0.0
       ]
     },
@@ -94,7 +86,7 @@
       "attach": false,
       "translate": [
         0.0,
-        -24.0,
+        -23.0,
         0.0
       ]
     },
@@ -107,23 +99,6 @@
         5.0,
         -22.0,
         0.0
-      ],
-      "boxes": [
-        {
-          "textureOffset": [
-            40,
-            16
-          ],
-          "sizeAdd": 1.0,
-          "coordinates": [
-            -8.0,
-            12.0,
-            -2.0,
-            4.0,
-            12.0,
-            4.0
-          ]
-        }
       ]
     },
     {
@@ -133,8 +108,33 @@
       "attach": false,
       "translate": [
         1.9,
-        -12.0,
+        -13.0,
         0.0
+      ],
+      "submodels": [
+        {
+          "id": "leg_pouch",
+          "invertAxis": "xy",
+          "translate": [0, 0, 0],
+          "model": "leg_pouch.jpm"
+        }
+      ],
+      "boxes": [
+        {
+          "textureOffset": [
+            0,
+            16
+          ],
+          "sizeAdd": 0.4,
+          "coordinates": [
+            -3.9,
+            1.0,
+            -2.0,
+            4.0,
+            12.0,
+            4.0
+          ]
+        }
       ]
     }
   ],
