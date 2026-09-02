@@ -55,6 +55,41 @@
           "model": "wyrd_model:item/james/black_cowboy_hat"
         },
         "threshold": 205
+ },
+      {
+        "model": {
+          "type": "model",
+          "model": "wyrd_model:item/james/miner_hat"
+        },
+        "threshold": 206
+ },
+      {
+        "model": {
+          "type": "model",
+          "model": "wyrd_model:item/james/calender_sept"
+        },
+        "threshold": 207
+ },
+      {
+        "model": {
+          "type": "model",
+          "model": "wyrd_model:item/james/calender_oct"
+        },
+        "threshold": 208
+ },
+      {
+        "model": {
+          "type": "model",
+          "model": "wyrd_model:item/james/calender_nov"
+        },
+        "threshold": 209
+ },
+      {
+        "model": {
+          "type": "model",
+          "model": "wyrd_model:item/james/calender_dec"
+        },
+        "threshold": 210
       }
     ]
   }
