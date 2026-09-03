@@ -1,0 +1,6 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "wyrd_model:item/red/elytra/reds_elytra"
+    }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "wyrd_model:item/ryu/blue_feather"
+  }
+}
