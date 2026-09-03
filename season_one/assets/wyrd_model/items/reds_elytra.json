@@ -1,0 +1,14 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:broken",
+    "on_true": {
+      "type": "minecraft:model",
+      "model": "wyrd_model:item/red/elytra/reds_elytra_broken"
+    },
+    "on_false": {
+      "type": "minecraft:model",
+      "model": "wyrd_model:item/red/elytra/reds_elytra"
+    }
+  }
+}

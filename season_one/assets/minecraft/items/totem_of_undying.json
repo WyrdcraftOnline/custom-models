@@ -1,0 +1,19 @@
+{
+  "model": {
+    "type": "range_dispatch",
+    "property": "custom_model_data",
+    "fallback": {
+      "type": "model",
+      "model": "item/totem_of_undying"
+    },
+    "entries": [
+      {
+        "model": {
+          "type": "model",
+          "model": "wyrd_model:item/james/lucky"
+        },
+        "threshold": 221
+      }
+    ]
+  }
+}

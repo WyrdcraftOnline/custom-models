@@ -12,7 +12,42 @@
           "type": "model",
           "model": "wyrd_model:item/james/edible_fire"
         },
-        "threshold": 206
+        "threshold": 211
+ },
+      {
+        "model": {
+          "type": "model",
+          "model": "wyrd_model:item/james/edible_redstone"
+        },
+        "threshold": 212
+ },
+      {
+        "model": {
+          "type": "model",
+          "model": "wyrd_model:item/james/rockcandy_purple"
+        },
+        "threshold": 213
+ },
+      {
+        "model": {
+          "type": "model",
+          "model": "wyrd_model:item/james/rockcandy_pink"
+        },
+        "threshold": 214
+ },
+      {
+        "model": {
+          "type": "model",
+          "model": "wyrd_model:item/james/rockcandy_blue"
+        },
+        "threshold": 215
+ },
+      {
+        "model": {
+          "type": "model",
+          "model": "wyrd_model:item/james/rockcandy_green"
+        },
+        "threshold": 216
       }
     ]
   }

@@ -141,6 +141,9 @@ Current assigned ranges:
 * **Lewisgamer327:** 101–199
 * **ThatOneGuyJames:** 200–299
 * **Noodls:** 300-399
+* **RED:** 400-499
+* **Ryu:** 500-599
+* **Pixels:** 600-699
 ---
 
 ## Contained Assets
@@ -173,9 +176,17 @@ The following custom models are currently included in the resource pack.
   *  `205`: Black Cowboy Hat `(carved pumpkin)`
   *  `206`: Edible Fire `(Golden Carrot)`
   *  `207`: Edible Redstone `(Golden Carrot)`
+  *  `207-219`: James Calenders `(carved pumpkin)`
+  *  `229`: Diamond Miner Helmet `(Golden Carrot)`
 
 * **Noodls:** 300-399
   *  `300`: Mushsandwich `(bread)`
+
+* **RED:** 400-499
+  *  `400`: Wonderland Hat `(carved Pumpkin)`
+
+* **Ryu:** 500-599
+  *  `500`: Blue Feather `(Feather)`
 
 ### Custom Paintings
 

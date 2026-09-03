@@ -90,6 +90,27 @@
           "model": "wyrd_model:item/james/calender_dec"
         },
         "threshold": 210
+ },
+      {
+        "model": {
+          "type": "model",
+          "model": "wyrd_model:item/red/wonderland_hat"
+        },
+        "threshold": 400
+ },
+      {
+        "model": {
+          "type": "model",
+          "model": "wyrd_model:item/james/cat_ears"
+        },
+        "threshold": 219
+ },
+      {
+        "model": {
+          "type": "model",
+          "model": "wyrd_model:item/james/diamond_miner_hat"
+        },
+        "threshold": 220
       }
     ]
   }

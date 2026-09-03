@@ -1,0 +1,19 @@
+{
+  "model": {
+    "type": "range_dispatch",
+    "property": "custom_model_data",
+    "fallback": {
+      "type": "model",
+      "model": "item/feather"
+    },
+    "entries": [
+      {
+        "model": {
+          "type": "model",
+          "model": "wyrd_model:item/ryu/blue_feather"
+        },
+        "threshold": 500
+      }
+    ]
+  }
+}
