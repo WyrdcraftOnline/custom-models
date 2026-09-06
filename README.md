@@ -218,6 +218,10 @@ The following custom entity models are currently included in the resource pack.
   * `Runic Sheath`: Sword and Scabbard `(Chestplate)`
   * `Runic Satchel`: Pouch `(Leggings)`
   * `Ruinstep Boots`: Adventure Boots `(Boots)`
+  * `Donald Duck`: DuckTale Names `(Chicken)`
+  * `Psyduck`: Pokemon Psyduck `(Chicken)`
+  * `Daffy Duck`: Daffy Duck `(Chicken)`
+  * `Duck`: Mallard Duck `(Chicken)`
 
 ---
 
