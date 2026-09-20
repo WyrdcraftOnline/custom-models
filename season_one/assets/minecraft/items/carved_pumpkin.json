@@ -13,104 +13,111 @@
           "model": "wyrd_model:item/sho/glasses/glasses_funny_disguise"
         },
         "threshold": 1
-    },
+      },
       {
         "model": {
           "type": "model",
           "model": "wyrd_model:item/james/sun_glasses"
         },
         "threshold": 200
-    },
+      },
       {
         "model": {
           "type": "model",
           "model": "wyrd_model:item/james/sunglasses_twobits"
         },
         "threshold": 201
-    },
+      },
       {
         "model": {
           "type": "model",
           "model": "wyrd_model:item/james/sunglasses_dadmann"
         },
         "threshold": 202
- },
+      },
       {
         "model": {
           "type": "model",
           "model": "wyrd_model:item/james/brown_cowboy_hat"
         },
         "threshold": 203
- },
+      },
       {
         "model": {
           "type": "model",
           "model": "wyrd_model:item/james/bright_brown_cowboy_hat"
         },
         "threshold": 204
- },
+      },
       {
         "model": {
           "type": "model",
           "model": "wyrd_model:item/james/black_cowboy_hat"
         },
         "threshold": 205
- },
+      },
       {
         "model": {
           "type": "model",
           "model": "wyrd_model:item/james/miner_hat"
         },
         "threshold": 206
- },
+      },
       {
         "model": {
           "type": "model",
           "model": "wyrd_model:item/james/calender_sept"
         },
         "threshold": 207
- },
+      },
       {
         "model": {
           "type": "model",
           "model": "wyrd_model:item/james/calender_oct"
         },
         "threshold": 208
- },
+      },
       {
         "model": {
           "type": "model",
           "model": "wyrd_model:item/james/calender_nov"
         },
         "threshold": 209
- },
+      },
       {
         "model": {
           "type": "model",
           "model": "wyrd_model:item/james/calender_dec"
         },
         "threshold": 210
- },
+      },
       {
         "model": {
           "type": "model",
           "model": "wyrd_model:item/red/wonderland_hat"
         },
         "threshold": 400
- },
+      },
       {
         "model": {
           "type": "model",
           "model": "wyrd_model:item/james/cat_ears"
         },
         "threshold": 219
- },
+      },
       {
         "model": {
           "type": "model",
           "model": "wyrd_model:item/james/diamond_miner_hat"
         },
         "threshold": 220
+      },
+      {
+        "model": {
+          "type": "model",
+          "model": "wyrd_model:item/cryptic/hat/cryptic_hat"
+        },
+        "threshold": 700
       }
     ]
   }

@@ -144,6 +144,7 @@ Current assigned ranges:
 * **RED:** 400-499
 * **Ryu:** 500-599
 * **Pixels:** 600-699
+* **Cryptic:** 700-799
 ---
 
 ## Contained Assets
@@ -163,6 +164,7 @@ The following custom models are currently included in the resource pack.
 * **SHO310:** 1-100
   *  `1`: Glasses Funny Disguise `(carved_pumpkin)`
   *  `2`: Elytra 1 `(Elytra)`
+  *  `3`: Beer Mug - Wood`(Honey Bottle)`
 
 * **LewisGamer327:** 101-199
   *  `101`: Magnifying Glass `(spyglass)`
@@ -188,6 +190,9 @@ The following custom models are currently included in the resource pack.
 * **Ryu:** 500-599
   *  `500`: Blue Feather `(Feather)`
 
+* **Cryptic:** 700-799
+  *  `700`: Cryptic Hat `(Carved Pumpkin)`
+
 ### Custom Paintings
 
 The following custom paintings are currently included in the resource pack.
@@ -208,6 +213,16 @@ The following armor stand skins are currently included in the resource pack.
 * `noor`: official Minecraft skin
 * `zuri`: official Minecraft skin
 * `sunny`: official Minecraft skin
+* `alex_peasant`: Sho & Cryptic - Inn
+* `blacksmith_1`: Sho & Cryptic - Inn
+* `male_peasant_1`: Sho & Cryptic - Inn
+* `old_lady_1`: Sho & Cryptic - Inn
+* `old_lady_2`: Sho & Cryptic - Inn
+* `old_man_1`: Sho & Cryptic - Inn
+* `old_man_2`: Sho & Cryptic - Inn
+* `old_man_3`: Sho & Cryptic - Inn
+* `steve_peasant`: Sho & Cryptic - Inn
+* `wandering_trader`: Sho & Cryptic - Inn
 
 ### Custom Entity Models
 
