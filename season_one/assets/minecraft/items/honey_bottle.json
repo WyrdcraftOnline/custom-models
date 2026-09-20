@@ -1,0 +1,19 @@
+{
+  "model": {
+    "type": "range_dispatch",
+    "property": "custom_model_data",
+    "fallback": {
+      "type": "model",
+      "model": "item/honey_bottle"
+    },
+    "entries": [
+      {
+        "model": {
+          "type": "model",
+          "model": "wyrd_model:item/sho/wood_beer_mug/beer_mug_wood"
+        },
+        "threshold": 3
+      }
+    ]
+  }
+}
