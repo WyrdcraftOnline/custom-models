@@ -1,0 +1,19 @@
+{
+  "model": {
+    "type": "range_dispatch",
+    "property": "custom_model_data",
+    "fallback": {
+      "type": "model",
+      "model": "item/minecart"
+    },
+    "entries": [
+      {
+        "model": {
+          "type": "model",
+          "model": "wyrd_model:item/james/diamondcart"
+        },
+        "threshold": 1
+      }
+    ]
+  }
+}
