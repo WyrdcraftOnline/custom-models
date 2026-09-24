@@ -1,0 +1,26 @@
+{
+  "model": {
+    "type": "range_dispatch",
+    "property": "custom_model_data",
+    "fallback": {
+      "type": "model",
+      "model": "item/iron_nugget"
+    },
+    "entries": [
+      {
+        "model": {
+          "type": "model",
+          "model": "wyrd_model:item/james/copper_james_trophy"
+        },
+        "threshold": 1
+ },
+      {
+        "model": {
+          "type": "model",
+          "model": "wyrd_model:item/james/stone_james_trophy"
+        },
+        "threshold": 2
+      }
+    ]
+  }
+}

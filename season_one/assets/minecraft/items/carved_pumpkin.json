@@ -118,6 +118,27 @@
           "model": "wyrd_model:item/cryptic/hat/cryptic_hat"
         },
         "threshold": 700
+      },
+      {
+        "model": {
+          "type": "model",
+          "model": "wyrd_model:item/james/golden_miner_helmet"
+        },
+        "threshold": 221
+      },
+      {
+        "model": {
+          "type": "model",
+          "model": "wyrd_model:item/james/copper_miner_helmet"
+        },
+        "threshold": 222
+      },
+      {
+        "model": {
+          "type": "model",
+          "model": "wyrd_model:item/james/treasure_chest"
+        },
+        "threshold": 223
       }
     ]
   }
