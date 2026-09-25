@@ -12,14 +12,14 @@
           "type": "model",
           "model": "wyrd_model:item/james/copper_james_trophy"
         },
-        "threshold": 1
+        "threshold": 201
  },
       {
         "model": {
           "type": "model",
           "model": "wyrd_model:item/james/stone_james_trophy"
         },
-        "threshold": 2
+        "threshold": 202
       }
     ]
   }
