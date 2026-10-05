@@ -189,6 +189,8 @@ The following custom models are currently included in the resource pack.
 
 * **Ryu:** 500-599
   *  `500`: Blue Feather `(Feather)`
+  *  `501`: Sharp Cheddar `(Golden Carrot)`
+  *  `502`: Halloumie `(Golden Carrot)`
 
 * **Cryptic:** 700-799
   *  `700`: Cryptic Hat `(Carved Pumpkin)`
