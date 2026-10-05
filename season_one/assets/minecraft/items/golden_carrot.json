@@ -48,6 +48,20 @@
           "model": "wyrd_model:item/james/rockcandy_green"
         },
         "threshold": 216
+ },
+      {
+        "model": {
+          "type": "model",
+          "model": "wyrd_model:item/ryu/sharp_cheddar"
+        },
+        "threshold": 501
+ },
+      {
+        "model": {
+          "type": "model",
+          "model": "wyrd_model:item/ryu/halloumie"
+        },
+        "threshold": 502
       }
     ]
   }
