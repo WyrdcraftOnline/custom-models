@@ -191,6 +191,9 @@ The following custom models are currently included in the resource pack.
   *  `500`: Blue Feather `(Feather)`
   *  `501`: Sharp Cheddar `(Golden Carrot)`
   *  `502`: Halloumie `(Golden Carrot)`
+  *  `503`: Resin Scythe `(Iron Nugget)`
+  *  `504`: Creaking Statue 1 `(Iron Nugget)`
+  *  `505`: Ivory Tower/Totem `(Iron Nugget)`
 
 * **Cryptic:** 700-799
   *  `700`: Cryptic Hat `(Carved Pumpkin)`
@@ -225,6 +228,12 @@ The following armor stand skins are currently included in the resource pack.
 * `old_man_3`: Sho & Cryptic - Inn
 * `steve_peasant`: Sho & Cryptic - Inn
 * `wandering_trader`: Sho & Cryptic - Inn
+* `Vector`: Cryptics Friend
+* `Cryptic`: Cryptics Friend 
+* `Lewis`: Cryptics Friend
+* `Tiller`: Cryptics Friend
+* `Sierra`: Cryptics Friend
+* `Baso`: Cryptics Friend
 
 ### Custom Entity Models
 
