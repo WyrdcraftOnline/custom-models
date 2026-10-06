@@ -20,6 +20,27 @@
           "model": "wyrd_model:item/james/stone_james_trophy"
         },
         "threshold": 202
+ },
+      {
+        "model": {
+          "type": "model",
+          "model": "wyrd_model:item/ryu/resin_scythe"
+        },
+        "threshold": 503
+ },
+      {
+        "model": {
+          "type": "model",
+          "model": "wyrd_model:item/ryu/creaking_statue_1"
+        },
+        "threshold": 504
+ },
+      {
+        "model": {
+          "type": "model",
+          "model": "wyrd_model:item/ryu/ivory_tower"
+        },
+        "threshold": 505
       }
     ]
   }
