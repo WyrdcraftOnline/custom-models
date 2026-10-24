@@ -139,6 +139,13 @@
           "model": "wyrd_model:item/james/treasure_chest"
         },
         "threshold": 223
+      },
+      {
+        "model": {
+          "type": "model",
+          "model": "wyrd_model:item/james/creeper"
+        },
+        "threshold": 224
       }
     ]
   }
