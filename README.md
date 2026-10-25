@@ -179,6 +179,7 @@ The following custom models are currently included in the resource pack.
   *  `206`: Edible Fire `(Golden Carrot)`
   *  `207`: Edible Redstone `(Golden Carrot)`
   *  `207-219`: James Calenders `(carved pumpkin)`
+  *  `224`: Creeper `(carved pumpkin)`
   *  `229`: Diamond Miner Helmet `(Golden Carrot)`
 
 * **Noodls:** 300-399
@@ -194,6 +195,7 @@ The following custom models are currently included in the resource pack.
   *  `503`: Resin Scythe `(Iron Nugget)`
   *  `504`: Creaking Statue 1 `(Iron Nugget)`
   *  `505`: Ivory Tower/Totem `(Iron Nugget)`
+  *  `506`: Ivory Tower/Totem `(Netherite Sword)`
 
 * **Cryptic:** 700-799
   *  `700`: Cryptic Hat `(Carved Pumpkin)`
