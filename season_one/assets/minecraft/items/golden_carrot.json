@@ -62,6 +62,13 @@
           "model": "wyrd_model:item/ryu/halloumie"
         },
         "threshold": 502
+ },
+      {
+        "model": {
+          "type": "model",
+          "model": "wyrd_model:item/ryu/cornbread"
+        },
+        "threshold": 507
       }
     ]
   }
