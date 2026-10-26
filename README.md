@@ -195,7 +195,8 @@ The following custom models are currently included in the resource pack.
   *  `503`: Resin Scythe `(Iron Nugget)`
   *  `504`: Creaking Statue 1 `(Iron Nugget)`
   *  `505`: Ivory Tower/Totem `(Iron Nugget)`
-  *  `506`: Ivory Tower/Totem `(Netherite Sword)`
+  *  `506`: Resin Scythe Weapon `(Netherite Sword)`
+  *  `507`: Cornbread `(Golden Carrot)`
 
 * **Cryptic:** 700-799
   *  `700`: Cryptic Hat `(Carved Pumpkin)`
