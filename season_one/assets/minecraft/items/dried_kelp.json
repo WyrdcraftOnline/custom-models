@@ -1,0 +1,27 @@
+{
+  "model": {
+    "type": "range_dispatch",
+    "property": "custom_model_data",
+    "fallback": {
+      "type": "model",
+      "model": "item/dried_kelp"
+    },
+    "entries": [
+      {
+        "model": {
+          "type": "model",
+          "model": "wyrd_model:item/notaduck/pink_sweet"
+        },
+        "threshold": 601
+      },
+
+      {
+        "model": {
+          "type": "model",
+          "model": "wyrd_model:item/notaduck/purple_sweet"
+        },
+        "threshold": 602
+      }
+    ]
+  }
+}
