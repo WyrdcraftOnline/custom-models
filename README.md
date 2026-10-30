@@ -202,6 +202,10 @@ The following custom models are currently included in the resource pack.
 * **Cryptic:** 700-799
   *  `700`: Cryptic Hat `(Carved Pumpkin)`
 
+* **Jamesisnotaduck:** 600-699
+  *  `600`: Pink Sweet `(Dried Kelp)`
+  *  `601`: Purple Sweet `(Dried Kelp)`
+
 ### Custom Paintings
 
 The following custom paintings are currently included in the resource pack.
