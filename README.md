@@ -180,6 +180,8 @@ The following custom models are currently included in the resource pack.
   *  `207`: Edible Redstone `(Golden Carrot)`
   *  `207-219`: James Calenders `(carved pumpkin)`
   *  `224`: Creeper `(carved pumpkin)`
+  *  `225`: Light Gem `(Iron Nugget)`
+  *  `226`: Cursed Gem `(Iron Nugget)`
   *  `229`: Diamond Miner Helmet `(Golden Carrot)`
 
 * **Noodls:** 300-399
