@@ -41,6 +41,20 @@
           "model": "wyrd_model:item/ryu/ivory_tower"
         },
         "threshold": 505
+ },
+      {
+        "model": {
+          "type": "model",
+          "model": "wyrd_model:item/james/light_gem"
+        },
+        "threshold": 225
+ },
+      {
+        "model": {
+          "type": "model",
+          "model": "wyrd_model:item/james/cursed_gem"
+        },
+        "threshold": 224
       }
     ]
   }
