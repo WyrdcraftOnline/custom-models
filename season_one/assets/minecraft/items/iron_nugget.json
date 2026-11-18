@@ -1,61 +1,75 @@
 {
-  "model": {
-    "type": "range_dispatch",
-    "property": "custom_model_data",
-    "fallback": {
-      "type": "model",
-      "model": "item/iron_nugget"
-    },
-    "entries": [
-      {
-        "model": {
-          "type": "model",
-          "model": "wyrd_model:item/james/copper_james_trophy"
+    "model": {
+        "type": "range_dispatch",
+        "property": "custom_model_data",
+        "fallback": {
+            "type": "model",
+            "model": "item/iron_nugget"
         },
-        "threshold": 201
- },
-      {
-        "model": {
-          "type": "model",
-          "model": "wyrd_model:item/james/stone_james_trophy"
-        },
-        "threshold": 202
- },
-      {
-        "model": {
-          "type": "model",
-          "model": "wyrd_model:item/ryu/resin_scythe"
-        },
-        "threshold": 503
- },
-      {
-        "model": {
-          "type": "model",
-          "model": "wyrd_model:item/ryu/creaking_statue_1"
-        },
-        "threshold": 504
- },
-      {
-        "model": {
-          "type": "model",
-          "model": "wyrd_model:item/ryu/ivory_tower"
-        },
-        "threshold": 505
- },
-      {
-        "model": {
-          "type": "model",
-          "model": "wyrd_model:item/james/light_gem"
-        },
-        "threshold": 225
- },
-      {
-        "model": {
-          "type": "model",
-          "model": "wyrd_model:item/james/cursed_gem"
-        },
-        "threshold": 224
-      }
-    ]
-  }
+        "entries": [
+            {
+                "model": {
+                    "type": "model",
+                    "model": "wyrd_model:item/james/copper_james_trophy"
+                },
+                "threshold": 201
+            },
+            {
+                "model": {
+                    "type": "model",
+                    "model": "wyrd_model:item/james/stone_james_trophy"
+                },
+                "threshold": 202
+            },
+            {
+                "model": {
+                    "type": "model",
+                    "model": "wyrd_model:item/ryu/resin_scythe"
+                },
+                "threshold": 503
+            },
+            {
+                "model": {
+                    "type": "model",
+                    "model": "wyrd_model:item/ryu/creaking_statue_1"
+                },
+                "threshold": 504
+            },
+            {
+                "model": {
+                    "type": "model",
+                    "model": "wyrd_model:item/ryu/ivory_tower"
+                },
+                "threshold": 505
+            },
+            {
+                "model": {
+                    "type": "model",
+                    "model": "wyrd_model:item/james/light_gem"
+                },
+                "threshold": 225
+            },
+            {
+                "model": {
+                    "type": "model",
+                    "model": "wyrd_model:item/james/cursed_gem"
+                },
+                "threshold": 224
+            },
+            {
+                "model": {
+                    "type": "model",
+                    "model": "wyrd_model:item/james/cursed_gem"
+                },
+                "threshold": 224
+            },
+            {
+                "model": {
+                    "type": "model",
+                    "model": "wyrd_model:item/dadmann/christmas_ticket"
+                },
+                "threshold": 800
+            }
+        ]
+    }
 }

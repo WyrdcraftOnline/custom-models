@@ -199,12 +199,15 @@ The following custom models are currently included in the resource pack.
   *  `505`: Ivory Tower/Totem `(Iron Nugget)`
   *  `506`: Ivory Tower/Totem `(Netherite Sword)`
 
-* **Cryptic:** 700-799
-  *  `700`: Cryptic Hat `(Carved Pumpkin)`
-
 * **Jamesisnotaduck:** 600-699
   *  `600`: Pink Sweet `(Dried Kelp)`
   *  `601`: Purple Sweet `(Dried Kelp)`
+
+* **Cryptic:** 700-799
+  *  `700`: Cryptic Hat `(Carved Pumpkin)`
+
+* **dadmannwalking:** 800-899
+  *  `700`: Christmas Ticket `(Iron Nugget)`
 
 ### Custom Paintings
 
