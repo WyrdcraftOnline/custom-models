@@ -360,6 +360,111 @@
           "type": "model",
           "model": "wyrd_painting:item/dadmannwalking"
         }
+      },
+      {
+        "when": "wyrd_painting:cryptic01",
+        "model": {
+          "type": "model",
+          "model": "wyrd_painting:item/cryptic"
+        }
+      },
+      {
+        "when": "wyrd_painting:cryptic02",
+        "model": {
+          "type": "model",
+          "model": "wyrd_painting:item/cryptic"
+        }
+      },
+      {
+        "when": "wyrd_painting:cryptic03",
+        "model": {
+          "type": "model",
+          "model": "wyrd_painting:item/cryptic"
+        }
+      },
+      {
+        "when": "wyrd_painting:cryptic04",
+        "model": {
+          "type": "model",
+          "model": "wyrd_painting:item/cryptic"
+        }
+      },
+      {
+        "when": "wyrd_painting:cryptic05",
+        "model": {
+          "type": "model",
+          "model": "wyrd_painting:item/cryptic"
+        }
+      },
+      {
+        "when": "wyrd_painting:cryptic06",
+        "model": {
+          "type": "model",
+          "model": "wyrd_painting:item/cryptic"
+        }
+      },
+      {
+        "when": "wyrd_painting:cryptic07",
+        "model": {
+          "type": "model",
+          "model": "wyrd_painting:item/cryptic"
+        }
+      },
+      {
+        "when": "wyrd_painting:cryptic08",
+        "model": {
+          "type": "model",
+          "model": "wyrd_painting:item/cryptic"
+        }
+      },
+      {
+        "when": "wyrd_painting:cryptic09",
+        "model": {
+          "type": "model",
+          "model": "wyrd_painting:item/cryptic"
+        }
+      },
+      {
+        "when": "wyrd_painting:cryptic10",
+        "model": {
+          "type": "model",
+          "model": "wyrd_painting:item/cryptic"
+        }
+      },
+      {
+        "when": "wyrd_painting:cryptic11",
+        "model": {
+          "type": "model",
+          "model": "wyrd_painting:item/cryptic"
+        }
+      },
+      {
+        "when": "wyrd_painting:cryptic12",
+        "model": {
+          "type": "model",
+          "model": "wyrd_painting:item/cryptic"
+        }
+      },
+      {
+        "when": "wyrd_painting:cryptic13",
+        "model": {
+          "type": "model",
+          "model": "wyrd_painting:item/cryptic"
+        }
+      },
+      {
+        "when": "wyrd_painting:cryptic14",
+        "model": {
+          "type": "model",
+          "model": "wyrd_painting:item/cryptic"
+        }
+      },
+      {
+        "when": "wyrd_painting:cryptic15",
+        "model": {
+          "type": "model",
+          "model": "wyrd_painting:item/cryptic"
+        }
       }
     ],
     "fallback": {
